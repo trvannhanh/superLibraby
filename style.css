@@ -42,13 +42,53 @@ body{
     font-weight: bold;
     border-bottom: 2px solid black;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-line::after{
+    content: "";
+    height: 3.5px;
+    display: block;
+    width: 100%;
+    background-color: black;
+}
 /* HEADER STYLE */
 #header{
+    background-color: white;
     height: 10vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+}
+
+
 .logo-fullscreen{
-    height: 100%;
-    width: 90px;
+    width: 80px;
 }
 
 .logo-fullscreen img{
@@ -56,75 +96,60 @@ body{
     object-fit: cover;
 }
 
-.right .account-nav{
-    float: right;
+#header .right .nav-bar{
+    margin-top: 10px;
+    margin-left: auto;
     width: 300px;
 }
 
-.right .account-nav a{
-    text-decoration: none;
-    color: black;
-}
-
-.right .account-nav .account-container{
-    font-size: 14px;
-    
-}
-
-.right .account-nav .search-container{
-    font-weight: bold;
-}
-
-.right .account-nav .donate-container > button{
+#header .right .nav-bar li > button.search-button{
     border: none;
-    color: white;
+    background-color: white;
     font-weight: bold;
-    padding: 0.25rem 0.5rem;
-    background-color: var(--color6);
-    cursor: pointer;
+    font-size: 1rem;
 }
+
 /* HEADER STYLE END */
 
 /* MENU-BAR STYLE */
-#menu-bar-container{
-    height: 8vh;
-}
-#menu-bar-container .logo-fullscreen img{
-    display: none;
-}
-.title > h2{
-    color: var(--color5);
-}
-
-.title > h2 > span{
-    border-bottom: 3px solid black;
-}
-
-.main-menu{
-    width: 55%;
-    list-style-type: none;
-}
-
-.main-menu p{
+#nav-bar-container .right .nav-bar li a{
     opacity: 0.6;
-    cursor: pointer;
 }
 
-.main-menu p:hover{
-    border-bottom: 3px solid black;
+.title-fullscreen{
+    color: purple;
+}
+
+#nav-bar-container{
+    background-color: white;
+    height: 8vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-bar-container .logo-fullscreen{
+    visibility: hidden;
+}
+#nav-bar-container .right .nav-bar li{
+    position: relative;
+}
+#nav-bar-container .right .nav-bar li:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3.5px;
+    display: block;
+    transition: all 0.3s ease;
+}
+#nav-bar-container .right .nav-bar li:hover::after {
+    width: 100%;
+    height: 3.5px;
+    background-color: black;
+}
+#nav-bar-container .right .nav-bar li:hover a{
     opacity: 1;
 }
-.menu-bar{
-    display: none;
-}
-.menu-bar > button{
-    font-size: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-
 /* MENU-BAR STYLE END */
 
 /* VIDEO STYLE*/

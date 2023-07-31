@@ -15,63 +15,43 @@
     </head>
     <body>
         <!--==================== HEADER ====================-->
-        <header class="flex layout" id="header">
+        <header id="header">
             <div class="left">
                 <div class="logo-fullscreen">
-                    <img src="images/logo.webp" alt="main-logo">
+                    <img src="images/logo.webp" alt="">
                 </div>
             </div>
             <div class="right">
-                <div class="account-nav flex">
-                    <div class="account-container">
-                        <a href="#">My Account</a>
-                    </div>
-                    <div class="donate-container">
-                        <button>DONATE</button>
-                    </div>
-                    <div class="search-container">
-                        <a href="#">SEARCH</a>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    
-                </div>
+                <ul class="nav-bar">
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><a href="">My Account</a></li>
+                    <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
+                </ul>
             </div>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== MENU ====================-->
-            <section class="flex layout" id="menu-bar-container">
-                <div class="logo-fullscreen">
-                    <img src="images/logo.webp">
+            <section id="nav-bar-container">
+                <div class="left">
+                    <div class="logo-fullscreen">
+                        <img src="images/logo.webp" alt="">
+                    </div>
+                    <div class="title-fullscreen">
+                        <h2>OPEN UNIVERSITY LIBRARY</h2>
+                    </div>
                 </div>
-                <div class="title">
-                    <h2>OPEN UNIVERSITY <span>LIBRARY</span></h2>
-                </div>
-                <ul class="main-menu flex">
-                    <li class="books-container">
-                        <p>Book & More</p>
-                    </li>
-                    <li class="locations-container">
-                        <p>Locations</p>
-                    </li>
-                    <li class="events-container">
-                        <p>Events</p>
-                    </li>
-                    <li class="services-container">
-                        <p>Services</p>
-                    </li>
-                    <li class="resources-container">
-                        <p>Resources</p>
-                    </li>
-                    <li class="about-container">
-                        <p>About</p>
-                    </li>
-                </ul>
-                <div class="menu-bar">
-                    <button>
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
+                <div class="right">
+                    <ul class="nav-bar">
+                        <li><a href="">Book & More</a></li>
+                        <li><a href="">Locations</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Kid & Teens</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
                 </div>
             </section>
             <!--==================== VIDEO ====================-->
