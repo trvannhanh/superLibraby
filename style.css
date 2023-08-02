@@ -79,30 +79,22 @@ img{
     display: flex;
     justify-content: center;
 }
-
 .left{
     width: 30%;
     display: flex;
     align-items: center;
 }
-
 .right{
     width: 50%;
 }
-
-
 .logo-fullscreen{
     width: 80px;
 }
-
-
-
 #header .right .nav-bar{
     margin-top: 10px;
     margin-left: auto;
     width: 300px;
 }
-
 #header .right .nav-bar li > button.search-button{
     border: none;
     background-color: white;
@@ -123,11 +115,12 @@ img{
 
 #nav-bar-container{
     background-color: white;
-    height: 8vh;
+    height: 9vh;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 2px 2px #A9A9A9;
 }
 #nav-bar-container .logo-fullscreen{
     visibility: hidden;
