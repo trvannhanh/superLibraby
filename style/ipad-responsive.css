@@ -32,24 +32,10 @@
     /* video responsive */
     #video-container{
         height: 68vh;
-
     }
     /* video responsive*/
-    
-    /* book responsive */
-    .item{
-        width: 26.5vw;
-    }
-    .direction{
-        display: none;
-    }
-    /* book responsive end*/
 
-    /* footer responsive */
-    .social-icons i{
-        margin-bottom: 10px;
-    }
-    /* footer responsive end*/
+    /* news and event responsive */
     #news-and-events{
         flex-direction: column;
     }
@@ -76,4 +62,31 @@
     .event:not(:first-child){
         margin-left: 30px;
     }
+    /* news and event responsive end*/
+
+    /* education explore responsive */
+    .edu-text-container  div:nth-child(2){
+        font-size: 0.8rem;
+    }
+    .edu-text-container  .explore-button{
+        margin-top: 10px;
+    }
+    /* education explore responsive end */
+    
+    /* book responsive */
+    .item{
+        width: 26.5vw;
+    }
+    .direction{
+        display: none;
+    }
+    /* book responsive end*/
+
+    /* footer responsive */
+    .social-icons i{
+        margin-bottom: 10px;
+    }
+    /* footer responsive end*/
+
+    
 }

@@ -1,5 +1,14 @@
 /* MAIN SCRIPT */
 
+/* dark mode script */
+
+var icon = document.getElementById("dark-mode-icon");
+icon.onclick = function (){
+    document.body.classList.toggle("dark-theme");
+}
+
+/* dark mode script end */
+
 /* header&navbar script*/
 const navBar = document.getElementById('nav-bar-container');
 const sticky = navBar.offsetTop;
