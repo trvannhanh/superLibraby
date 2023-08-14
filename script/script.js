@@ -9,6 +9,17 @@ icon.onclick = function (){
 
 /* dark mode script end */
 
+/* sidebar script */
+const sideBar = document.getElementById('sidebar');
+document.getElementById("sidebar-button").onclick = () =>{
+    sideBar.classList.add('show');
+}
+document.getElementById('close-button').onclick = () =>{
+    sideBar.classList.remove('show');
+}
+
+/* sidebar script end */
+
 /* header&navbar script*/
 const navBar = document.getElementById('nav-bar-container');
 const sticky = navBar.offsetTop;

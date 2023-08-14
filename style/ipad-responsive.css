@@ -23,7 +23,7 @@
     #nav-bar-container .right .nav-bar{
         display: none;
     }
-    #nav-bar-container .right .side-bar{
+    #nav-bar-container .right #sidebar-button{
         display: block;
     }
 
