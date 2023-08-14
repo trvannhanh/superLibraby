@@ -18,16 +18,31 @@
         width: 50%;
     }
     #nav-bar-container .right{
-        width: 30%;
+        width: 30%
     }
     #nav-bar-container .right .nav-bar{
-        display: none;
+        justify-content: flex-end;
     }
-    #nav-bar-container .right #sidebar-button{
-        display: block;
+    #nav-bar-container .right .nav-bar li:not(:last-child){
+        display: none;
     }
 
     /* menubar responsive end */
+
+    /* sidebar responsive */
+    #sidebar{
+        width: 350px;
+        animation: responsive-sidebar-ani .5s;
+    }
+    @keyframes responsive-sidebar-ani {
+        0%{
+            width: 0px;
+        }
+        100%{
+            width: 350px;
+        }
+    }
+    /* sidebar responsive end */
 
     /* video responsive */
     #video-container{
