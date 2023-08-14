@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 :root{
     --default-color: #fff;
     --gradient-color-start:#CACFF9;
     --gradient-color-end: #F5CBD9;
     --primary-color: #edf2fc;
     --secondary-color: #212121;
+    --font-one: 'Roboto';
+    --font-two: 'Open Sans';
 }
 
 .dark-theme{
@@ -23,7 +24,7 @@
 
 body{
     box-sizing: border-box;
-    font-family: Roboto;
+    font-family: var(--font-two);
     margin: 0;
     background-color: var(--primary-color);
 }
@@ -64,6 +65,10 @@ img{
 }
 .show{
     display: block!important;
+}
+
+.hidden{
+    display: none!important;
 }
 /* HEADER STYLE */
 #header{
@@ -111,6 +116,7 @@ img{
 /* MENU-BAR STYLE */
 .title-fullscreen{
     color: var(--secondary-color);
+    font-family: var(--font-two);
 }
 
 #nav-bar-container{
@@ -160,7 +166,8 @@ img{
     position: fixed;
     z-index: 999;
     right: 0;
-    width: 350px;
+    max-width: 400px;
+    width: 400px;
     height: 100%;
     background-color: var(--gradient-color-end);
     display: none;
@@ -171,7 +178,7 @@ img{
         width: 0px;
     }
     100%{
-        width: 350px;
+        width: 400px;
     }
 }
 

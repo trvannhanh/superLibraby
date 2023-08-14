@@ -3,15 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
-
+        <link rel="shortcut icon" href="../images/logo.webp" type="image/x-icon">
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="/style/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="/style/ipad-responsive.css">
-
+        <link rel="stylesheet" href="../style/book.css">
         <title>Local Library</title>
     </head>
     <body>
@@ -73,108 +70,166 @@
                     
                 </div>
             </section>
-            <!--==================== VIDEO ====================-->
-            <section class="" id="video-container">
-                <video loop="" muted="" autoplay="" playsinline="" poster="images/library_img.jpg" class="fullscreen-bgvideo"> 
-                    <source src="/video/video.mp4" type="video/mp4"> 
-                </video>
-                <div class="fullscreen-title">
-                        <h1>MEET US AT NGUYEN KIEM!</h1>
-                </div>
-                <div class="arrow">
-                    <span>></span>
-                    <span>></span>
-                    <span>></span>
-                </div>
-            </section>
-        
-            <!--==================== NEWS & EVENTS ====================-->
-            <section id="news-and-events">
-                <div id="news-container">
-                    <div class="title-line">
-                        <h2>NEWS</h2>
-                        <a href="">All News</a>
-                    </div>
-                    <div class="news">
-                        <div class="new">
-                            <div class="new-image">
-                                <img src="/images/image4.jpg" alt="">
-                            </div>
-                            <div class="new-description">
-                                <p class="new-title">COVID-19 measures reduced life-threatening invasive bacterial infections</p>
-                                <p class="time">28 JUL 2023</p>
-                            </div>
-                        </div>
-                        <div class="new">
-                            <div class="new-image">
-                                <img src="/images/image3.jpg" alt="">
-                            </div>
-                            <div class="new-description">
-                                <p class="new-title">Researchers successfully train a machine learning model in outer space for the first time</p>
-                                <p class="time">28 JUL 2023</p>
-                            </div>
-                        </div>
-                        <div class="new">
-                            <div class="new-image">
-                                <img src="/images/image2.jpg" alt="">
-                            </div>
-                            <div class="new-description">
-                                <p class="new-title">COVID-19 measures reduced life-threatening invasive bacterial infections</p>
-                                <p class="time">28 JUL 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="events-container">
-                    <div class="title-line">
-                        <h2>EVENTS</h2>
-                        <a href="">All Events</a>
-                    </div>
-                    <div class="events">
-                        <div class="event">
-                            <div class="event-time">
-                                15 <span>AUG</span>
-                            </div>
-                            <div class="event-description">
-                                <p class="event-title">Multaka Tour:What it is to be Human</p>
-                                <p class="event-location">Pltt Rivers Museum</p>
-                                <p class="time">24 AUG 2023</p>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-time">
-                                24 <span>AUG</span>
-                            </div>
-                            <div class="event-description">
-                                <p class="event-title">Multaka Tour:What it is to be Human</p>
-                                <p class="event-location">Pltt Rivers Museum</p>
-                                <p class="time">24 AUG 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--==================== EDUCATION EXPLORE ====================-->
-            <div id="edu-container">
-                <div class="edu-text-container">
-                    <div class="title-line">
-                        <h2>Confronting Anti-Black Racism: Education</h2>
-                    </div>
-                    <div>
-                        We're highlighting content on topics relating to anti-Black racism. 
-                        See the newest entry, which explores how racial disparities in education 
-                        are the cumulative effect of generations of racism, divestment, and denied opportunities.
-                    </div>
-                    <div class="explore-button"><a href="">EXPLORE THE PROJECT</a></div>
-                </div>
-            </div>
             
-            <!--==================== BOOKS ====================-->
-            <section class="" id="books-and-more">
-                <div class="title-line">
-                    <h2>POPULAR BOOKS</h2>
-                    <a href="">All Books</a>
+            <section id="book-container">
+                <div class="book-image-container">
+                    <div class="book-image">
+                        <img src="/images/bookcover5.jpg" alt="">
+                    </div>
                 </div>
+                <div class="book-information-container">
+                    <div class="book-name">
+                        <h2>The Road to Roswell</h2>
+                    </div>
+                    <div class="book-author">
+                        <p>a novel</p>
+                        <p class="author">Will Connie</p>
+                    </div>
+                    <div class="book-rating">
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            (1 rating)
+                        </p>
+                    </div>
+                    <div class="book-watch">
+                        <button class="book-button"><i class="fa-solid fa-book-open"></i> Book 2023</button>
+                        <button class="ebook-button"><i class="fa-solid fa-mobile-screen"></i> eBook</button>
+                        <button class="audio-button"><i class="fa-solid fa-headphones"></i> Download AudioBook</button>
+                    </div>
+                    <div class="book-description">
+                        <p>
+                            <p>A delightful novel about alien invasions, conspiracies, and the incredibly silly things people are willing to believe--some of which may actually be true--from
+                                 the Nebula and Hugo award-winning author of Blackout and All Clear</p>
+
+                            <p>"An absolute blast with abundant humor, copious references to old westerns, and . . . a delightful, intergalactic twist on the romantic comedy."-- Publishers Weekly
+                                 (starred review)</p>
+                            <div class="read-more-text">
+
+                                <p>When level-headed Francie arrives in Roswell, New Mexico, for her college roommate's UFO-themed wedding--complete with a true-believer bridegroom--she can't 
+                                    help but roll her eyes at all the wide-eyed talk of aliens, which obviously don't exist. Imagine her surprise, then, when she is abducted by one.</p>
+    
+                                <p>Odder still, her abductor is far from what the popular media have led her to expect, with a body like a tumbleweed and a mass of lightning-fast tentacles.
+                                    Nor is Francie the only victim of the alien's abduction spree. Before long, he has acquired a charming con man named Wade, a sweet little old lady with a 
+                                    casino addiction, a retiree with a huge RV and a love for old Westerns, and a UFO-chasing nutjob who is thoroughly convinced the alien intends to probe them
+                                     and/or take over the planet.</p>
+                                  
+                                <p>But the more Francie gets to know the alien, the more convinced she becomes that he's not an invader. That he's in trouble and she has to help him. Only she
+                                    doesn't know how--or even what the trouble is.</p>
+    
+                                <p>Part alien-abduction adventure, part road trip saga, part romantic comedy, The Road to Roswell is packed full of Men in Black, Elvis impersonators,
+                                    tourist traps, rattlesnakes, chemtrails, and Close Encounters of the Third, Fourth, and Fifth kind. Can Francie, stuck in a neon green bridesmaid's dress,
+                                     save the world--and still make it back for the wedding?</p>
+                            </div>
+                        </p>
+                        <span class="read-more-button">Read More...</span>
+                        <span class="read-less-button">Read Less...</span>
+                    </div>
+                </div>
+                <div class="book-cart-container">
+                    <div class="book-cart">
+                        <div class="available-container">
+                            <p>Available</p>
+                            <div class="available-list">
+                                <p><span>16</span>copies</p>
+                                <p><span>6</span>available</p>
+                                <p><span>0</span>on hold</p>
+                            </div>
+                        </div>
+                        <div class="order-container">
+                            <a href="">Availability by location ></a>
+                            <button class="placehold-button">Place hold</button>
+                            <button class="later-button"><i class="fa-regular fa-bookmark"></i>For Later</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="about-part">
+                <div class="head-container">
+                    <h2>About</h2>
+                </div>
+                <div class="tail-container">
+                    <p class="title">Details</p>
+                    <p><span>PUBLICATION</span>New York : Del Rey, [2023], ©2023</p>
+                    <a href="">Full details ></a>
+                </div>
+            </section>
+            <hr>
+
+            <section id="opinion-part">
+                <div class="head-container">
+                    <h2>Opinion</h2>
+                </div>
+                <div class="tail-container">
+                    <p class="title">From the critics</p>
+                    <div class="tail-part">
+                       <p class="mini-title">Publishers Weekly</p>
+                       <p>
+                        <p>Multiple Hugo and Nebula Award winner Willis (Blackout/All Clear) returns with a delightful, intergalactic twist on the romantic comedy. Francie only agrees to show up
+                             for her college roommate's doomed wedding in Roswell, N.Mex.,…</p>
+                        <span class="read-more-text">
+                            because she hopes her presence will make the bride-to-be realize she's
+                             making a mistake. That, and she's the maid of honor. The wedding and the
+                              town's annual UFO Festival are not falling on the same weekend by 
+                              coincidence; the groom is a true believer. Meanwhile, skeptical Francie 
+                              can barely stand every moment she has to spend hearing about sightings,
+                               theories, and abductions. Then she herself is abducted by an alien who
+                                needs her help navigating the New Mexican desert. Her abductor, 
+                                nicknamed Indy, is described as looking like a "animate tumbleweed," 
+                                with dozens of quick, strong tentacles that it has no issue using to
+                                 keep Francie acting as its chauffeur. A chance encounter with a 
+                                 friendly and handsome hitchhiker, Wade, a con man, adds one more to
+                                  the madcap road trip, and each subsequent stop continues to grow
+                                   the wacky crew. For Francie, terror turns to acceptance that turns
+                                    to curiosity that turns to care as she comes to believe that Indy 
+                                    is just trying to get home. Willis makes Francie's journey to, 
+                                    from, and around Roswell an absolute blast with abundant humor, 
+                                    copious references to old westerns, and sweet budding love between
+                                     Francie and Wade. Readers will not be disappointed. (June)
+                            </span>
+                        </p>
+                        <span class="read-more-button">Read More...</span>
+                        <span class="read-less-button">Read Less...</span>
+
+                    </div>
+                    <div class="tail-part">
+                        <p class="mini-title">Booklist</p>
+                        <p>
+                         <p>Multiple Hugo and Nebula Award winner Willis (Blackout/All Clear) returns with a delightful, intergalactic twist on the romantic comedy. Francie only agrees to show up
+                              for her college roommate's doomed wedding in Roswell, N.Mex.,…</p>
+                         <span class="read-more-text">
+                             because she hopes her presence will make the bride-to-be realize she's
+                              making a mistake. That, and she's the maid of honor. The wedding and the
+                               town's annual UFO Festival are not falling on the same weekend by 
+                               coincidence; the groom is a true believer. Meanwhile, skeptical Francie 
+                               can barely stand every moment she has to spend hearing about sightings,
+                                theories, and abductions. Then she herself is abducted by an alien who
+                                 needs her help navigating the New Mexican desert. Her abductor, 
+                                 nicknamed Indy, is described as looking like a "animate tumbleweed," 
+                                 with dozens of quick, strong tentacles that it has no issue using to
+                                  keep Francie acting as its chauffeur. A chance encounter with a 
+                                  friendly and handsome hitchhiker, Wade, a con man, adds one more to
+                                   the madcap road trip, and each subsequent stop continues to grow
+                                    the wacky crew. For Francie, terror turns to acceptance that turns
+                                     to curiosity that turns to care as she comes to believe that Indy 
+                                     is just trying to get home. Willis makes Francie's journey to, 
+                                     from, and around Roswell an absolute blast with abundant humor, 
+                                     copious references to old westerns, and sweet budding love between
+                                      Francie and Wade. Readers will not be disappointed. (June)
+                             </span>
+                         </p>
+                         <span class="read-more-button">Read More...</span>
+                         <span class="read-less-button">Read Less...</span>
+                     </div>
+                </div>
+            </section>
+            <hr>
+            <section class="" id="books-and-more">
+                <h2>You may also like</h2>
                 <div id="formList">
                     <div id="list">
                         <div class="item">
@@ -324,5 +379,7 @@
         </footer>
         <!--=============== MAIN JS ===============-->
         <script src="/script/script.js"></script>
+        <script src="/script/book.js"></script>
     </body>
 </html>
+    
