@@ -1,5 +1,33 @@
 /* MAIN SCRIPT */
 
+/* JSON data */
+function loadBooks() {
+    fetch("/asset/data.json").then(res => res.json()).then(data => {
+        let h = "";
+        for (let p of data)
+        {
+          h += `<div class="item"><a href="../index/book.html">
+                            <img src="${p.bookcover}" class="avatar" alt="book-cover">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>${p.name}</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>${p.author}</p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+      `;
+            document.getElementById('list').innerHTML = h;
+        }
+    })
+  }
+
+window.onload = function(){
+    loadBooks();
+}
+/* JSON data */
 /* dark mode script */
 
 var icon = document.getElementById("dark-mode-icon");
@@ -57,3 +85,5 @@ document.getElementById("prev").onclick = function(){
 /* book script end */
 
 /* MAIN SCRIPT END */
+
+
