@@ -33,6 +33,16 @@ window.addEventListener('scroll', function(){
         navBar.classList.remove('fixed');
     }
 });
+
+/* search up */
+const searchContainer = document.getElementById('search-part');
+document.getElementById("search-button").onclick = () =>{
+    searchContainer.classList.add('show');
+}
+document.getElementById('search-close-button').onclick = () =>{
+    searchContainer.classList.remove('show');
+}
+
 /* header&navbar script end*/
 
 /* book script */

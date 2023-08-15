@@ -48,6 +48,10 @@
     #video-container{
         height: 68vh;
     }
+    .arrow{
+        bottom: 5%;
+        left: 22%;
+    }
     /* video responsive*/
 
     /* news and event responsive */

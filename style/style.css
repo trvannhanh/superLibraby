@@ -90,6 +90,7 @@ img{
 }
 .logo-fullscreen{
     width: 80px;
+    cursor: pointer;
 }
 #header .right .nav-bar{
     margin-top: 10px;
@@ -97,7 +98,7 @@ img{
     width: 300px;
     align-items: center;
 }
-#header .right .nav-bar li > button.search-button{
+#header .right .nav-bar li > button#search-button{
     border: none;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -111,6 +112,47 @@ img{
     color: var(--secondary-color);
 }
 
+/* search */
+
+#search-part{
+    display: none;
+}
+
+#search-container{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 999;
+    background-color: var(--gradient-color-start);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-container > h2{
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+#search-container > input{
+    width: 700px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid var(--gradient-color-end);
+    outline: none;
+}
+
+#search-container > button{
+    position: absolute;
+    right: 8%;
+    top: 10px;
+    border: none;
+    background: transparent;
+}
+
+#search-container i{
+    opacity: 0.8;
+    cursor: pointer;
+}
 /* HEADER STYLE END */
 
 /* MENU-BAR STYLE */
@@ -224,21 +266,16 @@ img{
 
 /* VIDEO STYLE*/
 
-#video-container{
+#banner-container{
     width: 100%;
     height: 77vh;
     position: relative;
     overflow: hidden;
-}
-
-.fullscreen-bgvideo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
+    background-image: url(/images/library_img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .fullscreen-title {
@@ -254,7 +291,7 @@ img{
 
 .arrow{
     position: absolute;
-    bottom: 3%;
+    bottom: -2%;
     left: 17%;
     rotate: 90deg;
     cursor: pointer;
@@ -322,6 +359,7 @@ img{
 .event{
     padding: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 /* news */
 #news-container{
@@ -337,6 +375,9 @@ img{
 .new-description .new-title{
     font-size: 17px;
     font-weight: bold;
+}
+.new-description .new-title:hover{
+    color: rgb(192, 29, 29);
 }
 .time{
     font-size: 0.7rem;
@@ -366,6 +407,9 @@ img{
 }
 .event-description .event-title{
     font-weight: bold;
+}
+.event-description .event-title:hover{
+    color: rgb(192, 29, 29);
 }
 .event-description .event-location{
     opacity: 0.8;
