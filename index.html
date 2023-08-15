@@ -15,9 +15,19 @@
         <title>Local Library</title>
     </head>
     <body>
+        <div id="search-part">
+            <div id="search-container">
+                <div class="logo-fullscreen">
+                    <a href="index.html"><img src="../images/logo.webp" alt=""></a>
+                </div>
+                <h2>WHAT WOULD YOU LIKE TO FIND</h2>
+                <input type="text"><i class="fa-solid fa-magnifying-glass"></i>
+                <button id="search-close-button"><i class="fa-solid fa-x"></i></button>
+            </div>
+        </div>
         <div id="sidebar">
             <ul class="nav-bar">
-                <li><a href="/index/account.html">My Account</a></li>
+                <li><a href="../index/account.html">My Account</a></li>
                 <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
                 <li><button id="close-button"><i class="fa-solid fa-x"></i></button></li>
             </ul>
@@ -34,14 +44,14 @@
         <header id="header">
             <div class="left">
                 <div class="logo-fullscreen">
-                    <img src="/images/logo.webp" alt="">
+                    <a href="index.html"><img src="../images/logo.webp" alt=""></a>
                 </div>
             </div>
             <div class="right">
                 <ul class="nav-bar">
                     <li><i id="dark-mode-icon" class="fa-solid fa-circle-half-stroke"></i></li>
                     <li><a href="/index/account.html">My Account</a></li>
-                    <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    <li><button id="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
                 </ul>
             </div>
         </header>
@@ -74,10 +84,7 @@
                 </div>
             </section>
             <!--==================== VIDEO ====================-->
-            <section class="" id="video-container">
-                <video loop="" muted="" autoplay="" playsinline="" poster="images/library_img.jpg" class="fullscreen-bgvideo"> 
-                    <source src="/video/video.mp4" type="video/mp4"> 
-                </video>
+            <section class="" id="banner-container">
                 <div class="fullscreen-title">
                         <h1>MEET US AT NGUYEN KIEM!</h1>
                 </div>
