@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calendar</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/ipad-responsive.css">
     <link rel="stylesheet" href="../style/calendar.css">
     <link rel="stylesheet" href="../style/evo-calendar.min.css">
     <link rel="stylesheet" href="../style/evo-calendar.midnight-blue.min.css">
-    <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -17,10 +18,10 @@
 </head>
 <body>
     <!-- header -->
-    <section id="nav-bar-container" class="fixed">
+    <section id="nav-bar-container">
         <div class="left">
             <div class="logo-fullscreen">
-                <img src="/images/logo.webp" alt="">
+                <a href="/index.html"><img src="../images/logo.webp" alt=""></a>
             </div>
             <div class="title-fullscreen">
                 <h2>OPEN UNIVERSITY LIBRARY</h2>
@@ -30,14 +31,14 @@
             <ul class="nav-bar">
                 <li><a href="">Book & More</a></li>
                 <li><a href="">Locations</a></li>
-                <li><a href="">Events</a></li>
+                <li><a href="../index/calendar.html">Events</a></li>
                 <li><a href="">Kid & Teens</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Resources</a></li>
                 <li><a href="">About</a></li>
             </ul>
-            <div class="side-bar"><i class="fa-solid fa-bars"></i></div>
         </div>
+    </section>
     </section>
     <!-- ===============    CARLENDAR   ================== -->
     <div class="hero">
@@ -47,52 +48,6 @@
     </div>
 
 
-    <footer>
-        <div class="row">
-            <div class="col">
-                <img src="/images/logo.webp" class="logo">
-                <p>
-                    Ho Chi Minh Open Library, an excellent realm of knowledge, 
-                    providing education for all strata of society. The library is vast, 
-                    modern, and houses a plethora of diverse resources and materials. 
-                </p>
-            </div>
-            <div class="col">
-                <h3>Office<div class="underline"><span></span></div></h3>
-                <p>ITPL Road</p>
-                <p>97 Vo Van Tan - Ward Vo Thi Sau</p>
-                <p>District 3 - Ho Chi Minh City</p>
-                <p class="email-id">thuviendhm@ou.edu.vn</p>
-                <h4>(028) 3930 0085</h4>
-            </div>
-            <div class="col">
-                <h3>Links<div class="underline"><span></span></div></h3>
-                <ul class="linkList">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Newsletter<div class="underline"><span></span></div></h3>
-                <form>
-                    <i class="fa-regular fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email id" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/groups/thuvienou"><i class="fa-brands fa-facebook-f"></i></a>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">Copyright © 2021 Thư viện Đại học Mở. All Rights Reserved</p>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="../script/evo-calendar.min.js"></script>

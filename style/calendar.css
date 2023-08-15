@@ -13,9 +13,6 @@
     margin-top: 52px;
     position: relative;
 }
-#nav-bar-container{
-   position:fixed !important;
-}
 tr.calendar-body .calendar-day .day {
     border-radius: 5%;
 }

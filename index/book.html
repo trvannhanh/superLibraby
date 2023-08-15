@@ -12,16 +12,26 @@
         <title>Local Library</title>
     </head>
     <body>
+        <div id="search-part">
+            <div id="search-container">
+                <div class="logo-fullscreen">
+                    <a href="index.html"><img src="../images/logo.webp" alt=""></a>
+                </div>
+                <h2>WHAT WOULD YOU LIKE TO FIND</h2>
+                <input type="text"><i class="fa-solid fa-magnifying-glass"></i>
+                <button id="search-close-button"><i class="fa-solid fa-x"></i></button>
+            </div>
+        </div>
         <div id="sidebar">
             <ul class="nav-bar">
-                <li><a href="/index/account.html">My Account</a></li>
+                <li><a href="../index/account.html">My Account</a></li>
                 <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
                 <li><button id="close-button"><i class="fa-solid fa-x"></i></button></li>
             </ul>
             <ul class="main-nav-bar">
                 <li><a href=""><i class="fa-solid fa-book"></i>Book & More<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-location-dot"></i>Locations<i class="fa-solid fa-arrow-right"></i></a></li>
-                <li><a href=""><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="../index/calendar.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-children"></i>Kid & Teens<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-gear"></i>Services<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-cloud"></i>Resources<i class="fa-solid fa-arrow-right"></i></a></li>
@@ -31,14 +41,14 @@
         <header id="header">
             <div class="left">
                 <div class="logo-fullscreen">
-                    <img src="/images/logo.webp" alt="">
+                    <a href="../index.html"><img src="../images/logo.webp" alt=""></a>
                 </div>
             </div>
             <div class="right">
                 <ul class="nav-bar">
                     <li><i id="dark-mode-icon" class="fa-solid fa-circle-half-stroke"></i></li>
-                    <li><a href="/index/account.html">My Account</a></li>
-                    <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    <li><a href="../index/account.html">My Account</a></li>
+                    <li><button id="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
                 </ul>
             </div>
         </header>
@@ -50,7 +60,7 @@
             <section id="nav-bar-container">
                 <div class="left">
                     <div class="logo-fullscreen hidden-vision">
-                        <img src="/images/logo.webp" alt="">
+                        <img src="../images/logo.webp" alt="">
                     </div>
                     <div class="title-fullscreen">
                         <h2>OPEN UNIVERSITY LIBRARY</h2>
@@ -60,7 +70,7 @@
                     <ul class="nav-bar">
                         <li><a href="">Book & More</a></li>
                         <li><a href="">Locations</a></li>
-                        <li><a href="">Events</a></li>
+                        <li><a href="../index/calendar.html">Events</a></li>
                         <li><a href="">Kid & Teens</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Resources</a></li>

@@ -4,9 +4,10 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+
 .container{
     width: 100%;
-    height: 100vh;
+    height: 91vh;
     background-image: linear-gradient(rgba(0,0,50,0.9),rgba(0,0,50,0.9)), url(background1.png);
     background-position: center;
     background-size: cover;
