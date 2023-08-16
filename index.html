@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="/..images/logo.webp" type="image/x-icon">
+        <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="/style/style.css">
@@ -34,7 +34,7 @@
             <ul class="main-nav-bar">
                 <li><a href=""><i class="fa-solid fa-book"></i>Book & More<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-location-dot"></i>Locations<i class="fa-solid fa-arrow-right"></i></a></li>
-                <li><a href="../index/calendar.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-children"></i>Kid & Teens<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-gear"></i>Services<i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-cloud"></i>Resources<i class="fa-solid fa-arrow-right"></i></a></li>
@@ -44,14 +44,14 @@
         <header id="header">
             <div class="left">
                 <div class="logo-fullscreen">
-                    <a href="../index.html"><img src="../images/logo.webp" alt=""></a>
+                    <img src="/images/logo.webp" alt="">
                 </div>
             </div>
             <div class="right">
                 <ul class="nav-bar">
                     <li><i id="dark-mode-icon" class="fa-solid fa-circle-half-stroke"></i></li>
-                    <li><a href="../index/account.html">My Account</a></li>
-                    <li><button id="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    <li><a href="/index/account.html">My Account</a></li>
+                    <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
                 </ul>
             </div>
         </header>
@@ -63,7 +63,7 @@
             <section id="nav-bar-container">
                 <div class="left">
                     <div class="logo-fullscreen hidden-vision">
-                        <a href="/index.html"><img src="../images/logo.webp" alt=""></a>
+                        <img src="/images/logo.webp" alt="">
                     </div>
                     <div class="title-fullscreen">
                         <h2>OPEN UNIVERSITY LIBRARY</h2>
@@ -73,7 +73,7 @@
                     <ul class="nav-bar">
                         <li><a href="">Book & More</a></li>
                         <li><a href="">Locations</a></li>
-                        <li><a href="../index/calendar.html">Events</a></li>
+                        <li><a href="">Events</a></li>
                         <li><a href="">Kid & Teens</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Resources</a></li>
@@ -84,7 +84,10 @@
                 </div>
             </section>
             <!--==================== VIDEO ====================-->
-            <section class="" id="banner-container">
+            <section class="" id="video-container">
+                <video loop="" muted="" autoplay="" playsinline="" poster="images/library_img.jpg" class="fullscreen-bgvideo"> 
+                    <source src="/video/video.mp4" type="video/mp4"> 
+                </video>
                 <div class="fullscreen-title">
                         <h1>MEET US AT NGUYEN KIEM!</h1>
                 </div>
@@ -105,7 +108,7 @@
                     <div class="news">
                         <div class="new">
                             <div class="new-image">
-                                <img src="../images/image4.jpg" alt="">
+                                <img src="/images/image4.jpg" alt="">
                             </div>
                             <div class="new-description">
                                 <p class="new-title">COVID-19 measures reduced life-threatening invasive bacterial infections</p>
@@ -114,7 +117,7 @@
                         </div>
                         <div class="new">
                             <div class="new-image">
-                                <img src="../images/image3.jpg" alt="">
+                                <img src="/images/image3.jpg" alt="">
                             </div>
                             <div class="new-description">
                                 <p class="new-title">Researchers successfully train a machine learning model in outer space for the first time</p>
@@ -123,7 +126,7 @@
                         </div>
                         <div class="new">
                             <div class="new-image">
-                                <img src="../images/image2.jpg" alt="">
+                                <img src="/images/image2.jpg" alt="">
                             </div>
                             <div class="new-description">
                                 <p class="new-title">COVID-19 measures reduced life-threatening invasive bacterial infections</p>
@@ -184,8 +187,8 @@
                 </div>
                 <div id="formList">
                     <div id="list">
-                        <!-- <div class="item"><a href="../index/book.html">
-                            <img src="../images/bookcover1.jpg" class="avatar" alt="">
+                        <div class="item">
+                            <img src="/images/bookcover1.jpg" class="avatar" alt="">
                             <div class="content">
                                 <div class="nameBook">
                                     <p>Tuổi trẻ đáng giá bao nhiêu</p>
@@ -193,9 +196,85 @@
                                 <div class="nameAuthor">
                                     <p>Rosie Nguyen</p>
                                 </div>
-                            </div></a>
+                            </div>
                         </div>
-                        -->
+                        <div class="item">
+                            <img src="/images/bookcover2.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover3.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover4.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover5.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover6.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover7.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/images/bookcover8.jpg" class="avatar" alt="">
+                            <div class="content">
+                                <div class="nameBook">
+                                    <p>Tên</p>
+                                </div>
+                                <div class="nameAuthor">
+                                    <p>Tác giả</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="direction">
@@ -210,7 +289,7 @@
         <footer>
             <div class="row">
                 <div class="col">
-                    <img src="../images/logo.webp" class="logo">
+                    <img src="/images/logo.webp" class="logo">
                     <p>
                         Ho Chi Minh Open Library, an excellent realm of knowledge, 
                         providing education for all strata of society. The library is vast, 
