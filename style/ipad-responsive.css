@@ -64,6 +64,7 @@
     .new{
         display: flex;
         width: 600px;
+        padding: 5px;
     }
     .new-image{
         width: 200%;
@@ -72,7 +73,6 @@
     .event-description,
     .new-description{
         width: 100%;
-        margin-left: 20px;
     }
     .events{
         display: flex;
