@@ -3,7 +3,6 @@
     #sidebar{
         width: 250px;
         animation: responsive-sidebar-ani .5s;
-        z-index: 999;
     }
     @keyframes responsive-sidebar-ani {
         0%{
@@ -24,13 +23,19 @@
    #nav-bar-container{
     justify-content: space-evenly;
     height: 8vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 888;
     }
     #nav-bar-container .left .title-fullscreen > h2{
         font-size: 1.1rem;
     }
     .logo-fullscreen{
         width: 70px;
+        visibility: inherit!important;
     }
+    
    #menu-bar-container .logo-fullscreen img{
        display: block;
        margin-top: 10px;

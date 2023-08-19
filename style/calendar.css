@@ -16,3 +16,21 @@
 tr.calendar-body .calendar-day .day {
     border-radius: 5%;
 }
+
+@media screen and (max-width: 1024px){
+    #nav-bar-container .right{
+        display: none;
+    }
+    #nav-bar-container .left{
+        width: 70%;
+        height: 100%;
+        }   
+        #nav-bar-container .right{
+            width: 10%
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero{
+        margin-top: 100px;
+    }
+}

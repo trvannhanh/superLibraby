@@ -207,6 +207,7 @@ img{
 #sidebar{
     position: fixed;
     z-index: 999;
+    top: 0;
     right: 0;
     max-width: 400px;
     width: 400px;
@@ -712,5 +713,8 @@ hr{
 /* FOOTER STYLE END */
 
 /* RESPONSIVE STYLE */
+
+
+
 
 

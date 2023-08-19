@@ -9,6 +9,7 @@
     }
     #nav-bar-container{
         height: 6vh;
+        box-shadow: none
     }
     /* header responsive end */
 
