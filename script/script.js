@@ -53,11 +53,11 @@ const navBar = document.getElementById('nav-bar-container');
 const sticky = navBar.offsetTop;
 const logo = document.querySelector('#nav-bar-container .logo-fullscreen');
 window.addEventListener('scroll', function(){
-    if (window.scrollY >= sticky){
-        logo.style.visibility = "inherit";
+    if (window.scrollY > 0){
+        logo.classList.remove('hidden-vision');
         navBar.classList.add('fixed');
     } else {
-        logo.style.visibility = "hidden";
+        logo.classList.add('hidden-vision');
         navBar.classList.remove('fixed');
     }
 });

@@ -38,18 +38,21 @@ hr{
 
 .book-information-container .book-name > h2{
     font-size: 2rem;
+    color: var(--secondary-color);
 }
 
 .book-information-container .book-author{
     line-height: 30px;
+    color: var(--secondary-color);
 }
 
 .book-information-container .book-author .author{
-    color: var(--color1);
+    color: var(--color1)!important;
 }
 
 .book-information-container .book-rating{
-    margin: 10px 2px
+    margin: 10px 2px;
+    color: var(--secondary-color);
 }
 
 .book-information-container .book-rating i{
@@ -71,8 +74,9 @@ hr{
 }
 
 .book-information-container .book-watch > button:not(:first-child){
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
     opacity: 0.5;
+    color: var(--secondary-color);
 }
 
 .book-watch > button:not(:first-child):hover{
@@ -125,7 +129,7 @@ hr{
     height: 230px;
 }
 .book-cart .available-container{
-    border-bottom: 1px solid rgb(1, 1, 1, 0.5);
+    border-bottom: 1px solid var(--secondary-color);
     line-height: 30px;
 }
 .book-cart .available-container > p{
@@ -136,6 +140,7 @@ hr{
     width: 250px;
     display: flex;
     justify-content: space-between;
+    color: var(--secondary-color);
 }
 .book-cart .available-container .available-list span{
     margin-right: 5px;
@@ -171,10 +176,10 @@ hr{
 }
 
 .book-cart .order-container .later-button{
-    border: 1px solid rgb(1, 1, 1, 0.5);
+    border: 1px solid var(--secondary-color);
     display: flex;
     justify-content: center;
-    color: rgb(1, 1, 1, 0.7);
+    opacity: 0.7;
 }
 
 .book-cart .order-container .later-button i{
@@ -192,6 +197,7 @@ hr{
 
 .head-container{
     width: 25%;
+    color: var(--secondary-color);
 }
 
 .tail-container{
@@ -201,6 +207,10 @@ hr{
 .tail-container .title{
     font-size: 1.2rem;
     font-weight: bold;
+    color: var(--secondary-color);
+}
+.tail-container > p:nth-child(2){
+    color: var(--secondary-color);
 }
 
 .tail-container > p > span{
@@ -227,6 +237,9 @@ hr{
 .tail-part{
     margin: 20px 0;
 }
+.tail-part{
+    color: var(--secondary-color);
+}
 .tail-part .mini-title{
     font-weight: bold;
     opacity: 0.8;
@@ -237,6 +250,7 @@ hr{
 
 #books-and-more > h2{
     text-align: center;
+    color: var(--secondary-color);
 }
 
 @media screen and (max-width: 1024px){
@@ -270,5 +284,35 @@ hr{
 @media screen and (max-width: 768px){
     #book-container{
         flex-direction: column;
+        margin: 50px 10%;
+        align-items: center;
+        height: 1100px;
+        justify-content: space-between;
+    }
+    
+    /* image */
+    .book-image-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .book-image-container .book-image{
+       width: 100%;
+       height: 100%;
+    }
+    .book-image-container .book-image img{
+        width: 100%;
+    }
+    /* content */
+    .book-information-container{
+        width: 100%;
+    }
+    .head-container > h2{
+        font-size: 1.3rem;
+    }
+    .tail-container .title{
+        font-size: 1.1rem;
     }
 }

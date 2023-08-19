@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     width: 100%;
     height: 91vh;
@@ -94,4 +95,13 @@ form p a{
 .btn-feild button.disable{
     background: #eaeaea;
     color: #555;
+}
+@media screen and (max-width: 1024px){
+    #nav-bar-container .left{
+        width: 70%;
+        height: 100%;
+        }   
+        #nav-bar-container .right{
+            width: 10%
+    }
 }
