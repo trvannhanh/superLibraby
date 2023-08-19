@@ -14,6 +14,7 @@
     --secondary-color: #fff;
     --gradient-color-start: #243748;
     --gradient-color-end: #4B749F;
+    transition: all 0.9s;
 }
 
 *{
