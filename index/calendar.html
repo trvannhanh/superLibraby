@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calendar</title>
+    <title>Calendar | OU Library</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/ipad-responsive.css">
     <link rel="stylesheet" href="../style/mobile.css">
@@ -20,6 +20,21 @@
 </head>
 <body>
     <!-- header -->
+    <div id="sidebar">
+        <ul class="nav-bar">
+            <li><a href="../index/account.html">My Account</a></li>
+            <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
+            <li><button id="close-button"><i class="fa-solid fa-x"></i></button></li>
+        </ul>
+        <ul class="main-nav-bar">
+            <li><a href="/index/allbooks.html"><i class="fa-solid fa-book"></i>Book & More<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i>Locations<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href="../index/calendar.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-children"></i>Kid & Teens<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-gear"></i>Services<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-cloud"></i>Resources<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-circle-info"></i>About<i class="fa-solid fa-arrow-right"></i></a></li>
+    </div>
     <section id="nav-bar-container">
         <div class="left">
             <div class="logo-fullscreen">
@@ -31,7 +46,7 @@
         </div>
         <div class="right">
             <ul class="nav-bar">
-                <li><a href="">Book & More</a></li>
+                <li><a href="/index/allbooks.html">Book & More</a></li>
                 <li><a href="">Locations</a></li>
                 <li><a href="../index/calendar.html">Events</a></li>
                 <li><a href="">Kid & Teens</a></li>
@@ -81,6 +96,5 @@
     })
 })
     </script>
-      <script src="/script/scroll.js"></script>
 </body>
 </html>

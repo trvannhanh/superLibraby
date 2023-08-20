@@ -107,6 +107,18 @@
         margin-bottom: 10px;
     }
     /* footer responsive end*/
+    /* search */
+    #search-container{
+        height: 7vh;
+    }
+    #search-container > h2{
+        display: none;
+    }
+    #search-container .logo-fullscreen{
+        margin-right: 20px;
+    }
 
-    
+    #search-container > input{
+        width: 550px;
+    }
 }
