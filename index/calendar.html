@@ -13,88 +13,188 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<script src="https://kit.fontawesome.com/8fe24a7b32.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./style/scroll.css">
+    <link rel="stylesheet" href="../style/book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-+Mb4P2vws5OVRd3M1z8Cxv5gVix6Uiq3BqDkXl5Jz2U2Fncib62k3j2lI7ZI9S8w" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/scroll.css">
     <script src="../script/calendar.js"></script>
 </head>
 <body>
-    <!-- header -->
+    <div id="search-part">
+        <div id="search-container">
+            <div class="logo-fullscreen">
+                <a href="index.html"><img src="../images/logo.webp" alt=""></a>
+            </div>
+            <h2>WHAT WOULD YOU LIKE TO FIND</h2>
+            <input type="text"><i class="fas fa-search"></i>
+            <button id="search-close-button"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
     <div id="sidebar">
         <ul class="nav-bar">
             <li><a href="../index/account.html">My Account</a></li>
-            <li><button class="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
-            <li><button id="close-button"><i class="fa-solid fa-x"></i></button></li>
+            <li><button class="search-button">Search <i class="fas fa-search"></i></button></li>
+            <li><button id="close-button"><i class="fas fa-times"></i></button></li>
         </ul>
         <ul class="main-nav-bar">
-            <li><a href="/index/allbooks.html"><i class="fa-solid fa-book"></i>Book & More<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-location-dot"></i>Locations<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href="../index/calendar.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-children"></i>Kid & Teens<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-gear"></i>Services<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-cloud"></i>Resources<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-circle-info"></i>About<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href="/index/allbooks.html"><i class="fas fa-book"></i>Book & More<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fas fa-map-marker-alt"></i>Locations<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="../index/calendar.html"><i class="far fa-calendar-alt"></i>Events<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fas fa-child"></i>Kid & Teens<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fas fa-cog"></i>Services<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fas fa-cloud"></i>Resources<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href=""><i class="fas fa-info-circle"></i>About<i class="fas fa-arrow-right"></i></a></li>
+        </ul>
     </div>
-    <section id="nav-bar-container">
+    <!-- HEADER -->
+    <header id="header">
         <div class="left">
             <div class="logo-fullscreen">
-                <a href="/index.html"><img src="../images/logo.webp" alt=""></a>
-            </div>
-            <div class="title-fullscreen">
-                <h2>OPEN UNIVERSITY LIBRARY</h2>
+                <a href="../index.html"><img src="../images/logo.webp" alt=""></a>
             </div>
         </div>
         <div class="right">
             <ul class="nav-bar">
-                <li><a href="/index/allbooks.html">Book & More</a></li>
-                <li><a href="">Locations</a></li>
-                <li><a href="../index/calendar.html">Events</a></li>
-                <li><a href="">Kid & Teens</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Resources</a></li>
-                <li><a href="">About</a></li>
+                <li><i id="dark-mode-icon" class="fas fa-adjust"></i></li>
+                <li><a href="../index/account.html">My Account</a></li>
+                <li><button id="search-button">Search <i class="fas fa-search"></i></button></li>
             </ul>
         </div>
-    </section>
-    </section>
-    <!-- ===============    CARLENDAR   ================== -->
-    <div class="hero">
+    </header>
 
-        <div id="calendar"></div>
+    <!-- MAIN -->
+    <main class="main">
+        <!-- MENU -->
+        <section id="nav-bar-container">
+            <div class="left">
+                <div class="logo-fullscreen hidden-vision">
+                    <img src="../images/logo.webp" alt="">
+                </div>
+                <div class="title-fullscreen">
+                    <h2>OPEN UNIVERSITY LIBRARY</h2>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="nav-bar">
+                    <li><a href="/index/allbooks.html">Book & More</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="../index/calendar.html">Events</a></li>
+                    <li><a href="">Kid & Teens</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">About</a></li>
+                    <li><div id="sidebar-button"><i class="fas fa-bars"></i></div></li>
+                </ul>
+            </div>
+        </section>
 
-    </div>
+        <!-- CALENDAR -->
+        <div class="hero">
+            <div id="calendar"></div>
+        </div>
 
+        <!-- FOOTER -->
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="/images/logo.webp" class="logo">
+                    <p>
+                        Ho Chi Minh Open Library, an excellent realm of knowledge,
+                        providing education for all strata of society. The library is vast,
+                        modern, and houses a plethora of diverse resources and materials.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Office<div class="underline"><span></span></div></h3>
+                    <p>ITPL Road</p>
+                    <p>97 Vo Van Tan - Ward Vo Thi Sau</p>
+                    <p>District 3 - Ho Chi Minh City</p>
+                    <p class="email-id">thuviendhm@ou.edu.vn</p>
+                    <h4>(028) 3930 0085</h4>
+                </div>
+                <div class="col">
+                    <h3>Links<div class="underline"><span></span></div></h3>
+                    <ul class="linkList">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter<div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/groups/thuvienou"><i class="fab fa-facebook-f"></i></a>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021 Thư viện Đại học Mở. All Rights Reserved</p>
+        </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="../script/evo-calendar.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#calendar').evoCalendar({
+                    'sidebarToggler': false,
+                    theme: "Midnight Blue",
+                    calendarEvents: [
+                        {
+                            id: 'event1',
+                            name: "Interactive and Responsive Visuals",
+                            date: "08-08-23",
+                            description: "Data is a common currency in academia and visuals are key to delivering a story. In this session, we provide an overview of interactive and responsive data visualization. We will walk through guidelines to help you choose between interactive or static visuals. Lastly, we discuss a few open-source options to build your interactive masterpiece.",
+                            type: "holiday",
+                            everyYear: true
+                        },
+                        {
+                            id: 'event2',
+                            name: "Vấn đáp - 7a.m",
+                            date: "08-23-23",
+                            description: "Thi vấn đáp môn thiết kế web để lấy điểm giữa kỳ",
+                            type: "holiday",
+                            everyYear: true
+                        },
+                        {
+                            id: 'event3',
+                            name: "end test - 9a.m",
+                            date: "08-23-23",
+                            description: "kết thúc bài thi vấn đáp",
+                            type: "holiday",
+                            everyYear: true
+                        }
+                    ]
+                });
+            });
+        </script>
+        <script>
+            // Lắng nghe sự kiện click trên nút Dark Mode
+var darkModeButton = document.getElementById("dark-mode-icon"); // Thay thế "dark-mode-icon" bằng ID của nút Dark Mode
+darkModeButton.addEventListener("click", toggleDarkMode);
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="../script/evo-calendar.min.js"></script>
-    <script>
-        $(document).ready(function() {
-    $('#calendar').evoCalendar({
-        'sidebarToggler': false,
-        calendarEvents: [
-      {
-        id: 'event1', // Event's ID (required)
-        name: "Interactive and Responsive Visuals", // Event name (required)
-        date: "August/08/23", // Event date (required)
-        description:"Data is a common currency in academia and visuals are key to delivering a story. In this session, we provide an overview of interactive and responsive data visualization. We will walk through guidelines to help you choose between interactive or static visuals. Lastly, we discuss a few open-source options to build your interactive masterpiece.",
-        type: "holiday", // Event type (required)
-        everyYear: true // Same event every year (optional)
-        
-      },
-      {
-        name: "Vacation Leave",
-        badge: "02/13 - 02/15", // Event badge (optional)
-        date: ["February/13/2020", "February/15/2020"], // Date range
-        description: "Vacation leave for 3 days.", // Event description (optional)
-        type: "event",
-        color: "#63d867" // Event custom color (optional)
-      }
-    ]
+function toggleDarkMode() {
+    var calendarContainer = document.getElementById("calendar"); // Thay thế "calendar" bằng ID thư viện evo-calendar
+    var calendar = $(calendarContainer).data("evoCalendar"); // Lấy đối tượng calendar từ container
 
-        
-    })
-})
-    </script>
+    if (calendar.getTheme() === "Orange Coral") {
+        calendar.setTheme("Midnight Blue"); // Thay đổi theme thành "Midnight Blue" khi nhấn nút Dark Mode
+    } else {
+        calendar.setTheme("Orange Coral"); // Thay đổi lại theme thành "Orange Coral" khi nhấn lần nữa
+    }
+}
+
+        </script>
+        <script src="/script/script.js"></script>
+    </main>
 </body>
 </html>
