@@ -147,7 +147,7 @@
             $(document).ready(function() {
                 $('#calendar').evoCalendar({
                     'sidebarToggler': false,
-                    theme: "Midnight Blue",
+                    theme: "Orange Coral",
                     calendarEvents: [
                         {
                             id: 'event1',
@@ -178,18 +178,18 @@
             });
         </script>
         <script>
-            // Lắng nghe sự kiện click trên nút Dark Mode
-var darkModeButton = document.getElementById("dark-mode-icon"); // Thay thế "dark-mode-icon" bằng ID của nút Dark Mode
-darkModeButton.addEventListener("click", toggleDarkMode);
+           
+var themeToggleButton = document.getElementById("dark-theme"); 
+themeToggleButton.addEventListener("click", toggleTheme);
 
-function toggleDarkMode() {
-    var calendarContainer = document.getElementById("calendar"); // Thay thế "calendar" bằng ID thư viện evo-calendar
-    var calendar = $(calendarContainer).data("evoCalendar"); // Lấy đối tượng calendar từ container
+function toggleTheme() {
+    var calendarContainer = document.getElementById("calendar"); 
+    var calendar = $(calendarContainer).data("evoCalendar"); 
 
     if (calendar.getTheme() === "Orange Coral") {
-        calendar.setTheme("Midnight Blue"); // Thay đổi theme thành "Midnight Blue" khi nhấn nút Dark Mode
+        calendar.setTheme("Midnight Blue"); 
     } else {
-        calendar.setTheme("Orange Coral"); // Thay đổi lại theme thành "Orange Coral" khi nhấn lần nữa
+        calendar.setTheme("Orange Coral");
     }
 }
 
