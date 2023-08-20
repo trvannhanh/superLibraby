@@ -1,5 +1,15 @@
 /* MAIN SCRIPT */
 
+/* SCROLL to top */
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
 /* JSON data */
 function loadBooks() {
     fetch("/asset/data.json").then(res => res.json()).then(data => {
@@ -81,6 +91,23 @@ document.getElementById("next").onclick = function(){
 document.getElementById("prev").onclick = function(){
     const widthItem = document.querySelector('.item').offsetWidth;
     document.getElementById("formList").scrollLeft -= widthItem;
+}
+
+const readMoreText = document.querySelector('.read-more-text');
+const readMoreButton = document.querySelector('.read-more-button');
+const readLessButton = document.querySelector('.read-less-button');
+
+
+readMoreButton.onclick = () =>{
+    readMoreText.classList.add('show');
+    readMoreButton.classList.add('hidden');
+    readLessButton.classList.add('show');
+}
+
+readLessButton.onclick = () =>{
+    readMoreText.classList.remove('show');
+    readMoreButton.classList.remove('hidden');
+    readLessButton.classList.remove('show');
 }
 /* book script end */
 
