@@ -103,3 +103,42 @@ img{
         grid-template-columns: repeat(1fr);
     }
 }
+@media screen and (max-width: 1024px){
+    .arrivals .arrivals_box{
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 25px 0;
+    }
+    .arrivals .arrivals_box .arrivals_card{
+        margin: 0;
+    }
+    .reviews .review_box{
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    
+    .reviews .review_box .review_card{
+        width: 95%;
+        height: 250px;
+        margin: 12px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .arrivals{
+        margin-top: 100px;
+    }
+    .arrivals .arrivals_box .arrivals_card{
+        margin: 0 auto;
+        width: 180px;
+        height: 340px;
+    }
+    .arrivals .arrivals_box{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 0;
+    }
+    .reviews .review_box .review_card{
+        height: 280px;
+    }
+}
