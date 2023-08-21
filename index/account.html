@@ -20,7 +20,16 @@
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
+    <div id="search-part">
+        <div id="search-container">
+            <div class="logo-fullscreen">
+                <a href="index.html"><img src="../images/logo.webp" alt=""></a>
+            </div>
+            <h2>WHAT WOULD YOU LIKE TO FIND</h2>
+            <input type="text"><i class="fa-solid fa-magnifying-glass"></i>
+            <button id="search-close-button"><i class="fa-solid fa-x"></i></button>
+        </div>
+    </div>
     <div id="sidebar">
         <ul class="nav-bar">
             <li><a href="../index/account.html">My Account</a></li>
@@ -30,34 +39,55 @@
         <ul class="main-nav-bar">
             <li><a href="/index/allbooks.html"><i class="fa-solid fa-book"></i>Book & More<i class="fa-solid fa-arrow-right"></i></a></li>
             <li><a href=""><i class="fa-solid fa-location-dot"></i>Locations<i class="fa-solid fa-arrow-right"></i></a></li>
-            <li><a href="../index/calendar.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
+            <li><a href="../index/event.html"><i class="fa-regular fa-calendar-days"></i>Events<i class="fa-solid fa-arrow-right"></i></a></li>
             <li><a href=""><i class="fa-solid fa-children"></i>Kid & Teens<i class="fa-solid fa-arrow-right"></i></a></li>
             <li><a href=""><i class="fa-solid fa-gear"></i>Services<i class="fa-solid fa-arrow-right"></i></a></li>
             <li><a href=""><i class="fa-solid fa-cloud"></i>Resources<i class="fa-solid fa-arrow-right"></i></a></li>
             <li><a href=""><i class="fa-solid fa-circle-info"></i>About<i class="fa-solid fa-arrow-right"></i></a></li>
     </div>
-    <section id="nav-bar-container">
+    <!--==================== HEADER ====================-->
+    <header id="header">
         <div class="left">
             <div class="logo-fullscreen">
-                <a href="/index.html"><img src="../images/logo.webp" alt=""></a>
-            </div>
-            <div class="title-fullscreen">
-                <h2>OPEN UNIVERSITY LIBRARY</h2>
+                <a href="../index.html"><img src="../images/logo.webp" alt=""></a>
             </div>
         </div>
         <div class="right">
             <ul class="nav-bar">
-                <li><a href="/index/allbooks.html">Book & More</a></li>
-                <li><a href="">Locations</a></li>
-                <li><a href="../index/calendar.html">Events</a></li>
-                <li><a href="">Kid & Teens</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Resources</a></li>
-                <li><a href="">About</a></li>
-                <li><div id="sidebar-button"><i class="fa-solid fa-bars"></i></div></li>
+                <li><i id="dark-mode-icon" class="fa-solid fa-circle-half-stroke"></i></li>
+                <li><a href="../index/account.html">My Account</a></li>
+                <li><button id="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button></li>
             </ul>
         </div>
-    </section>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        
+        <!--==================== MENU ====================-->
+        <section id="nav-bar-container">
+            <div class="left">
+                <div class="logo-fullscreen hidden-vision">
+                    <a href="/index.html"><img src="../images/logo.webp" alt=""></a>
+                </div>
+                <div class="title-fullscreen">
+                    <h2>OPEN UNIVERSITY LIBRARY</h2>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="nav-bar">
+                    <li><a href="/index/allbooks.html">Book & More</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="../index/calendar.html">Events</a></li>
+                    <li><a href="">Kid & Teens</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">About</a></li>
+                    <li><div id="sidebar-button"><i class="fa-solid fa-bars"></i></div></li>
+                </ul>
+                
+            </div>
+        </section>
     <div class="container">
         <div class="form-box">
             <h1 id="title">Đăng Ký</h1>
@@ -84,7 +114,55 @@
             </form>
         </div>
     </div>
-    <script src="../script/script.js"></script>
+          <!--==================== FOOTER ====================-->
+          <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="../images/logo.webp" class="logo">
+                    <p>
+                        Ho Chi Minh Open Library, an excellent realm of knowledge, 
+                        providing education for all strata of society. The library is vast, 
+                        modern, and houses a plethora of diverse resources and materials. 
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Office<div class="underline"><span></span></div></h3>
+                    <p>ITPL Road</p>
+                    <p>97 Vo Van Tan - Ward Vo Thi Sau</p>
+                    <p>District 3 - Ho Chi Minh City</p>
+                    <p class="email-id">thuviendhm@ou.edu.vn</p>
+                    <h4>(028) 3930 0085</h4>
+                </div>
+                <div class="col">
+                    <h3>Links<div class="underline"><span></span></div></h3>
+                    <ul class="linkList">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter<div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/groups/thuvienou"><i class="fa-brands fa-facebook-f"></i></a>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2021 Thư viện Đại học Mở. All Rights Reserved</p>
+        </footer>
+        <!--=============== MAIN JS ===============-->
+        <script src="/script/script.js"></script>
     <script src="../script/account.js"></script>
 </body>
 </html>
