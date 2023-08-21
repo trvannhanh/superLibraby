@@ -24,7 +24,7 @@
 
 .arrivals .arrivals_box .arrivals_card{
     width: 240px;
-    height: 340px;
+    height: 360px;
     text-align: center;
     padding: 5px;
     border: 1px solid #919191;
@@ -68,7 +68,7 @@
     margin-bottom: 18px;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn{
+.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_author{
     padding: 8px 20px;
     border: 2px solid #089da1;
     text-decoration: none;

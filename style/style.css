@@ -396,7 +396,7 @@ img{
 #news-container{
     width: 75%;
 }
-.news{
+#news{
     display: flex;
 }
 .new-image{

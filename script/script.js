@@ -1,5 +1,4 @@
 /* MAIN SCRIPT */
-
 /* SCROLL to top */
 const toTop = document.querySelector(".to-top");
 
@@ -10,9 +9,13 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 })
-/* JSON data */
+
+
+
+
+/* JSON books data */
 function loadBooks() {
-    fetch("/asset/data.json").then(res => res.json()).then(data => {
+    fetch("/asset/books.json").then(res => res.json()).then(data => {
         let h = "";
         for (let p of data)
         {
@@ -26,18 +29,39 @@ function loadBooks() {
                                     <p>${p.author}</p>
                                 </div>
                             </div>
-                        </a>
+                            </a>
                         </div>
-      `;
+            `;
             document.getElementById('list').innerHTML = h;
         }
     })
-  }
+}
+
+function loadNews() {
+    fetch("/asset/news.json").then(res => res.json()).then(data => {
+        let n = "";
+        for (let q of data)
+        {
+          n += `<div class="new">
+                    <div class="new-image">
+                        <img src="${q.newscover}" alt="">
+                    </div>
+                    <div class="new-description">
+                        <p class="new-title">${q.title}</p>
+                        <p class="time">${q.day} ${q.month} ${q.year}</p>
+                    </div>
+                </div>
+            `;
+            document.getElementById('news').innerHTML = n;
+        }
+    })
+}
 
 window.onload = function(){
     loadBooks();
+    loadNews();
 }
-/* JSON data */
+
 /* dark mode script */
 
 var icon = document.getElementById("dark-mode-icon");

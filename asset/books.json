@@ -62,5 +62,21 @@
       "bookcover": "/images/bookcover8.jpg",
       "type": "Sách khoa học",
       "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Meo meo meo",
+      "author": "Ha ha ha",
+      "bookcover": "/images/bookcover9.jpg",
+      "type": "Sách khoa học",
+      "rating": 4.8
+    },
+    {
+      "id": 10,
+      "name": "Gau Gau Gau",
+      "author": "Hu hu hu",
+      "bookcover": "/images/bookcover10.jpg",
+      "type": "Sách khoa học",
+      "rating": 4.8
     }
-  ]
+]
