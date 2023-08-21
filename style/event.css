@@ -8,8 +8,8 @@
     box-sizing: border-box;
 }
 img{
-    max-width: auto ;
-    height: 150px !important;
+    max-width: auto !important;
+    height: auto;
 }
 .blog-section{
     width: 100%;
