@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 /*arrivals*/
 
 .arrivals{
@@ -57,7 +57,7 @@
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_tag p{
-    font-family: queen of camelot;
+    font-family: var(--font-three);
     font-size: 20px;
     margin: 8px 0;
     color: var(--secondary-color);
@@ -126,6 +126,7 @@
     margin: 10px 0 10px 0;
     text-align: justify;
     line-height: 22px;
+    font-family: var(--font-three);
 }
 
 .reviews .review_box .review_card .card .review_icon i{
@@ -169,9 +170,12 @@
     }
     .arrivals .arrivals_box{
         grid-template-columns: 1fr 1fr;
-        grid-gap: 10px 0;
+        grid-gap: 20px 0;
     }
     .reviews .review_box .review_card{
-        height: 280px;
+        height: 250px;
+    }
+    .arrivals .arrivals_box .arrivals_card .arrivals_tag p{
+        font-size: 1rem;
     }
 }

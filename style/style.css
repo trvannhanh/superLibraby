@@ -7,6 +7,7 @@
     --secondary-color: #212121;
     --font-one: 'Roboto';
     --font-two: 'Open Sans';
+    --font-three: monospace;
 }
 
 .dark-theme{
@@ -127,12 +128,14 @@ img{
     margin-left: auto;
     width: 300px;
     align-items: center;
+    font-family: var(--font-one);
 }
 #header .right .nav-bar li > button#search-button{
     border: none;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-weight: bold;
+    font-family: var(--font-three);
     font-size: 1rem;
 }
 
@@ -291,6 +294,11 @@ img{
 #sidebar .main-nav-bar a i{
     margin-right: 16px;
 }
+#darkmode-sidebar{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
 /* sidebar style end */
 
 /* MENU-BAR STYLE END */
@@ -376,11 +384,14 @@ img{
     padding-left: 10px;
 }
 .title-line > a{
-    color: blue;
+    color: rgb(49, 49, 199);
     font-size: 0.8rem;
     margin-left: 20px;
     padding-left: 10px;
     border-left: 2px solid var(--secondary-color);
+}
+.title-line > h2{
+    color: var(--secondary-color);
 }
 .event-description,
 .new-description{
@@ -462,7 +473,7 @@ img{
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background-image: url(images/education_bg.png);
+    background-image: url(/images/education_bg.png);
     filter: brightness(0.5);
     background-repeat: no-repeat;
     background-position: center;
@@ -482,6 +493,9 @@ img{
 }
 .edu-text-container .title-line{
     text-align: center;
+}
+.edu-text-container .title-line > h2{
+    color: var(--default-color);
 }
 .edu-text-container  div:nth-child(2){
     text-align: center;
@@ -598,7 +612,7 @@ img{
 }
 .item .content{
     padding: 0 30px;
-    font-family: monospace;
+    font-family: var(--font-three);
     color: var(--secondary-color);
 }
 

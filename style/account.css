@@ -8,7 +8,7 @@
 
 .container{
     width: 100%;
-    height: 91vh;
+    height: 81vh;
     background-image: linear-gradient(rgba(195, 203, 245, 0.075),rgba(0,0,50,0.9)), url(background1.png);
     background-position: center;
     background-size: cover;

@@ -63,9 +63,13 @@ window.onload = function(){
 }
 
 /* dark mode script */
+let sideBarIcon = document.getElementById("darkmode-sidebar");
+let icon = document.getElementById("dark-mode-icon");
 
-var icon = document.getElementById("dark-mode-icon");
-icon.onclick = function (){
+icon.onclick = () => {
+    document.body.classList.toggle("dark-theme");
+}
+sideBarIcon.onclick = () => {
     document.body.classList.toggle("dark-theme");
 }
 
