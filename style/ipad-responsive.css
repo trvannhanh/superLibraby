@@ -59,7 +59,7 @@
     #news-and-events{
         flex-direction: column;
     }
-    .news{
+    #news{
         flex-direction: column;
     }
     .new{
@@ -75,7 +75,7 @@
     .new-description{
         width: 100%;
     }
-    .events{
+    #events{
         display: flex;
 
     }

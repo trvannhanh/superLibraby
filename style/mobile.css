@@ -80,7 +80,7 @@
    #news-and-events{
     margin: 20px 0;
     }
-    .news{
+    #news{
         flex-direction: column;
     }
     .new{
