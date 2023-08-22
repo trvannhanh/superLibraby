@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "COVID-19 measures reduced life-threatening invasive bacterial infections",
-      "newscover": "images/image4.jpg",
+      "newscover": "/superLibrary/images/image4.jpg",
       "day": "14",
       "month": "JULY",
       "year": "2023"
@@ -10,7 +10,7 @@
     {
         "id": 1,
         "title": "Researchers successfully train a machine learning model in outer space for the first time",
-        "newscover": "images/image3.jpg",
+        "newscover": "/superLibrary/images/image3.jpg",
         "day": "28",
         "month": "AUGUST",
         "year": "2023"
@@ -18,7 +18,7 @@
     {
         "id": 1,
         "title": "COVID-19 measures reduced life-threatening invasive bacterial infections",
-        "newscover": "images/image2.jpg",
+        "newscover": "/superLibrary/images/image2.jpg",
         "day": "04",
         "month": "JULY",
         "year": "2023"
