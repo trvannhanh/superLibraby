@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
 
 /* JSON books data */
 function loadBooks() {
-    fetch("/asset/books.json").then(res => res.json()).then(data => {
+    fetch("/superLibrary/asset/books.json").then(res => res.json()).then(data => {
         let h = "";
         for (let p of data)
         {
@@ -38,7 +38,7 @@ function loadBooks() {
 }
 
 function loadNews() {
-    fetch("/asset/news.json").then(res => res.json()).then(data => {
+    fetch("/superLibrary/asset/news.json").then(res => res.json()).then(data => {
         let n = "";
         for (let q of data)
         {
