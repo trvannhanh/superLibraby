@@ -2,25 +2,25 @@
     {
       "id": 1,
       "name": "Anh Tuyến",
-      "avatar": "/images/review_1.png",
+      "avatar": "/superLibrary/images/review_1.png",
       "review": "Đây là trang web tuyệt nhất mà tôi từng truy cập, nó tổng hợp rất nhiều cuốn sách hay và bổ ích."
     },
     {
         "id": 2,
         "name": "Triệu Vỹ",
-        "avatar": "/images/review_2.png",
+        "avatar": "/superLibrary/images/review_2.png",
         "review": "Tuyệt, tôi có thể biết được mọi cuốn sách mới mà có thể mượn được từ thư viện, 10 điểm."
     },
     {
         "id": 3,
         "name": "Hoàng Nguyên",
-        "avatar": "/images/review_3.png",
+        "avatar": "/superLibrary/images/review_3.png",
         "review": " Rất tiếc nhưng một số cuốn sách không hoạt động ở chế đó ebook, mặc dù vậy nhưng phần audio tất tuyệt."
     },
     {
         "id": 4,
         "name": "Lê Nguyên",
-        "avatar": "/images/review_4.png",
+        "avatar": "/superLibrary/images/review_4.png",
         "review": "Sách là kho tàng tri thức lớn nhất của nhân loại, chúng ta nên đọc sách thường xuyên để hiểu biết hơn về các lĩnh vực."
     }
 ]
