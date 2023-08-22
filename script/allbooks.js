@@ -1,5 +1,5 @@
 function loadBooks() {
-    fetch("/asset/books.json").then(res => res.json()).then(data => {
+    fetch("/superLibrary/asset/books.json").then(res => res.json()).then(data => {
         let b = "";
         let h = "";
         for (let p of data)
@@ -41,7 +41,7 @@ function loadBooks() {
     })
 }
 function loadReviews() {
-    fetch("/asset/reviews.json").then(res => res.json()).then(data => {
+    fetch("/superLibrary/asset/reviews.json").then(res => res.json()).then(data => {
        let r="";
         for (let p of data)
         {
