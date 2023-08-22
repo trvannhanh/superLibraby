@@ -4,7 +4,7 @@ function loadBooks() {
         let h = "";
         for (let p of data)
         {
-            h += `<div class="item"><a href="../index/book.html">
+            h += `<div class="item"><a href="/superLibrary/index/book.html">
                             <img src="${p.bookcover}" class="avatar" alt="book-cover">
                             <div class="content">
                                 <div class="nameBook">
@@ -17,7 +17,7 @@ function loadBooks() {
                         </a>
                         </div>
             `;
-            b += `<div class="arrivals_card"><a href="../index/book.html">
+            b += `<div class="arrivals_card"><a href="/superLibrary/index/book.html">
                     <div class="arrivals_image">
                         <img src="${p.bookcover}">
                     </div>
