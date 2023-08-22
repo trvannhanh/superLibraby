@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Cuộc gọi của Sói",
       "author": "Jack London",
-      "bookcover": "/images/bookcover1.jpg",
+      "bookcover": "images/bookcover1.jpg",
       "type": "Phiêu lưu",
       "rating": 4.5
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Harry Potter và Hòn đá Phù thủy",
       "author": "J.K. Rowling",
-      "bookcover": "/images/bookcover2.jpg",
+      "bookcover": "images/bookcover2.jpg",
       "type": "Fantasy",
       "rating": 4.8
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Người Mẹ Nổi Loạn",
       "author": "Bùi Anh Tuấn",
-      "bookcover": "/images/bookcover3.jpg",
+      "bookcover": "images/bookcover3.jpg",
       "type": "Tâm lý - Xã hội",
       "rating": 4.2
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Dấn thân vào Thành công",
       "author": "Napoleon Hill",
-      "bookcover": "/images/bookcover4.jpg",
+      "bookcover": "images/bookcover4.jpg",
       "type": "Phát triển cá nhân",
       "rating": 4.6
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Điện thoại di động của Thần Thor",
       "author": "Hải Anh",
-      "bookcover": "/images/bookcover5.jpg",
+      "bookcover": "images/bookcover5.jpg",
       "type": "Hài hước",
       "rating": 3.9
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "name": "1984",
       "author": "George Orwell",
-      "bookcover": "/images/bookcover6.jpg",
+      "bookcover": "images/bookcover6.jpg",
       "type": "Khoa học viễn tưởng",
       "rating": 4.7
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "name": "Mắt biếc",
       "author": "Nguyễn Nhật Ánh",
-      "bookcover": "/images/bookcover7.jpg",
+      "bookcover": "images/bookcover7.jpg",
       "type": "Tiểu thuyết",
       "rating": 4.9
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Sapiens: Từ quá khứ đến tương lai",
       "author": "Yuval Noah Harari",
-      "bookcover": "/images/bookcover8.jpg",
+      "bookcover": "images/bookcover8.jpg",
       "type": "Sách khoa học",
       "rating": 4.8
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "name": "Meo meo meo",
       "author": "Ha ha ha",
-      "bookcover": "/images/bookcover9.jpg",
+      "bookcover": "images/bookcover9.jpg",
       "type": "Sách khoa học",
       "rating": 4.8
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "name": "Gau Gau Gau",
       "author": "Hu hu hu",
-      "bookcover": "/images/bookcover10.jpg",
+      "bookcover": "images/bookcover10.jpg",
       "type": "Sách khoa học",
       "rating": 4.8
     }
